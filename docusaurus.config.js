@@ -10,14 +10,14 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-domain.com',
+  url: 'https://appitect-dev.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/wiki/',
 
   // GitHub pages deployment config.
-  organizationName: 'your-org',
-  projectName: 'development-wiki',
+  organizationName: 'appitect-dev',
+  projectName: 'wiki',
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
@@ -37,7 +37,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/your-org/development-wiki/tree/main/',
+          editUrl: 'https://github.com/appitect-dev/wiki/tree/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -65,7 +65,7 @@ const config = {
             label: 'Tutorial',
           },
           {
-            href: 'https://github.com/your-org/development-wiki',
+            href: 'https://github.com/appitect-dev/wiki',
             label: 'GitHub',
             position: 'right',
           },
@@ -96,7 +96,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/your-org',
+                href: 'https://github.com/appitect-dev',
               },
             ],
           },
