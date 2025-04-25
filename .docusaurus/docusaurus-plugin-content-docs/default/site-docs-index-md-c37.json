@@ -18,7 +18,7 @@
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "Basic Web Development Concepts",
-    "permalink": "/wiki/fundamentals/basic-concepts"
+    "title": "Backend Development with Spring Boot",
+    "permalink": "/wiki/backend/overview"
   }
 }

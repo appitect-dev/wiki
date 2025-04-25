@@ -1,0 +1,27 @@
+{
+  "id": "frontend/backend-integration",
+  "title": "Backend Integration",
+  "description": "This guide covers how to integrate your Next.js frontend with a backend API, including setting up API clients, handling authentication, and managing API calls.",
+  "source": "@site/docs/frontend/backend-integration.md",
+  "sourceDirName": "frontend",
+  "slug": "/frontend/backend-integration",
+  "permalink": "/wiki/frontend/backend-integration",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/appitect-dev/wiki/tree/main/docs/frontend/backend-integration.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Project Setup and Configuration",
+    "permalink": "/wiki/frontend/project-setup"
+  },
+  "next": {
+    "title": "Component Development",
+    "permalink": "/wiki/frontend/components"
+  }
+}

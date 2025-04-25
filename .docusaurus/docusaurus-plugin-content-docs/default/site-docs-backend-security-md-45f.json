@@ -1,0 +1,27 @@
+{
+  "id": "backend/security",
+  "title": "Security Implementation",
+  "description": "This guide covers implementing security in Spring Boot applications, including authentication, authorization, and best practices for securing your API.",
+  "source": "@site/docs/backend/security.md",
+  "sourceDirName": "backend",
+  "slug": "/backend/security",
+  "permalink": "/wiki/backend/security",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/appitect-dev/wiki/tree/main/docs/backend/security.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Data Access with JPA and Hibernate",
+    "permalink": "/wiki/backend/jpa-hibernate"
+  },
+  "next": {
+    "title": "API Documentation with Swagger/OpenAPI",
+    "permalink": "/wiki/backend/api-docs"
+  }
+}

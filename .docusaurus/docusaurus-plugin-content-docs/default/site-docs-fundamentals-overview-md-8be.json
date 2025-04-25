@@ -1,0 +1,23 @@
+{
+  "id": "fundamentals/overview",
+  "title": "Fullstack Development Fundamentals",
+  "description": "This guide provides a comprehensive overview of the fundamental concepts and technologies needed to build a fullstack web application. It covers both frontend and backend development basics, along with essential tools and practices.",
+  "source": "@site/docs/fundamentals/overview.md",
+  "sourceDirName": "fundamentals",
+  "slug": "/fundamentals/overview",
+  "permalink": "/wiki/fundamentals/overview",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/appitect-dev/wiki/tree/main/docs/fundamentals/overview.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "State Management",
+    "permalink": "/wiki/frontend/state-management"
+  }
+}

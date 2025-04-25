@@ -1,0 +1,27 @@
+{
+  "id": "backend/jpa-hibernate",
+  "title": "Data Access with JPA and Hibernate",
+  "description": "This guide provides a deep dive into using JPA (Java Persistence API) and Hibernate with Spring Boot, covering advanced concepts and best practices.",
+  "source": "@site/docs/backend/jpa-hibernate.md",
+  "sourceDirName": "backend",
+  "slug": "/backend/jpa-hibernate",
+  "permalink": "/wiki/backend/jpa-hibernate",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/appitect-dev/wiki/tree/main/docs/backend/jpa-hibernate.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Database Integration",
+    "permalink": "/wiki/backend/database"
+  },
+  "next": {
+    "title": "Security Implementation",
+    "permalink": "/wiki/backend/security"
+  }
+}

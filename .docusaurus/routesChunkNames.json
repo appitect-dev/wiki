@@ -42,34 +42,70 @@
       "plugin": "plugin---wiki-docusaurus-debugbdd-e86"
     }
   },
-  "/wiki/-bd7": {
+  "/wiki/-b8e": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---wiki-fad-655"
     }
   },
-  "/wiki/-9ce": {
+  "/wiki/-994": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "version": "version---wiki-935-e12"
   },
-  "/wiki/-8cb": {
+  "/wiki/-30e": {
     "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/wiki/backend/api-docs-916": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---wiki-backend-api-docs-514-95f"
+  },
+  "/wiki/backend/database-2ca": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---wiki-backend-databasebed-3d6"
+  },
+  "/wiki/backend/jpa-hibernate-533": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---wiki-backend-jpa-hibernatea-9-c-a1d"
   },
   "/wiki/backend/overview-c4b": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---wiki-backend-overview-629-45e"
   },
+  "/wiki/backend/project-setup-86f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---wiki-backend-project-setupdc-1-c92"
+  },
+  "/wiki/backend/rest-api-8e8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---wiki-backend-rest-apie-9-d-aef"
+  },
+  "/wiki/backend/security-08b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---wiki-backend-security-45-f-ba4"
+  },
+  "/wiki/frontend/backend-integration-a3f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---wiki-frontend-backend-integration-90-a-8a7"
+  },
+  "/wiki/frontend/components-feb": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---wiki-frontend-components-2-fe-80d"
+  },
   "/wiki/frontend/overview-fa3": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---wiki-frontend-overviewde-8-e54"
   },
-  "/wiki/fundamentals/basic-concepts-9c8": {
+  "/wiki/frontend/project-setup-f9c": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---wiki-fundamentals-basic-concepts-366-297"
+    "content": "content---wiki-frontend-project-setup-5-f-1-e75"
   },
-  "/wiki/tools/git-guide-bce": {
+  "/wiki/frontend/state-management-76e": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---wiki-tools-git-guide-2-fc-dc7"
+    "content": "content---wiki-frontend-state-managementf-46-e3b"
+  },
+  "/wiki/fundamentals/overview-663": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---wiki-fundamentals-overview-8-be-e41"
   },
   "/wiki/-71d": {
     "__comp": "__comp---theme-doc-item-178-a40",

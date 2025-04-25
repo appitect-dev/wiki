@@ -1,0 +1,27 @@
+{
+  "id": "backend/database",
+  "title": "Database Integration",
+  "description": "This guide covers database integration with PostgreSQL, including database design, JPA/Hibernate configuration, and best practices for data modeling.",
+  "source": "@site/docs/backend/database.md",
+  "sourceDirName": "backend",
+  "slug": "/backend/database",
+  "permalink": "/wiki/backend/database",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/appitect-dev/wiki/tree/main/docs/backend/database.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "REST API Basics",
+    "permalink": "/wiki/backend/rest-api"
+  },
+  "next": {
+    "title": "Data Access with JPA and Hibernate",
+    "permalink": "/wiki/backend/jpa-hibernate"
+  }
+}

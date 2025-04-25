@@ -1,0 +1,27 @@
+{
+  "id": "frontend/project-setup",
+  "title": "Project Setup and Configuration",
+  "description": "This guide covers how to set up a new Next.js project and understand its basic configuration.",
+  "source": "@site/docs/frontend/project-setup.md",
+  "sourceDirName": "frontend",
+  "slug": "/frontend/project-setup",
+  "permalink": "/wiki/frontend/project-setup",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/appitect-dev/wiki/tree/main/docs/frontend/project-setup.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Frontend Development Overview",
+    "permalink": "/wiki/frontend/overview"
+  },
+  "next": {
+    "title": "Backend Integration",
+    "permalink": "/wiki/frontend/backend-integration"
+  }
+}

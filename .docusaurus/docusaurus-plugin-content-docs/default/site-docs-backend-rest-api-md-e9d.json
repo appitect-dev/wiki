@@ -1,0 +1,27 @@
+{
+  "id": "backend/rest-api",
+  "title": "REST API Basics",
+  "description": "This guide covers the fundamentals of building RESTful APIs with Spring Boot, including best practices, request/response handling, and common patterns.",
+  "source": "@site/docs/backend/rest-api.md",
+  "sourceDirName": "backend",
+  "slug": "/backend/rest-api",
+  "permalink": "/wiki/backend/rest-api",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/appitect-dev/wiki/tree/main/docs/backend/rest-api.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Project Setup and Structure",
+    "permalink": "/wiki/backend/project-setup"
+  },
+  "next": {
+    "title": "Database Integration",
+    "permalink": "/wiki/backend/database"
+  }
+}

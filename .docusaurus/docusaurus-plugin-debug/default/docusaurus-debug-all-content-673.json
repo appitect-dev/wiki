@@ -20,9 +20,90 @@
           "contentPathLocalized": "/Users/adambardzak/Desktop/business/wiki/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
+              "id": "backend/api-docs",
+              "title": "API Documentation with Swagger/OpenAPI",
+              "description": "This guide covers how to document your Spring Boot REST APIs using Swagger/OpenAPI 3.0, making them more accessible and easier to understand for other developers.",
+              "source": "@site/docs/backend/api-docs.md",
+              "sourceDirName": "backend",
+              "slug": "/backend/api-docs",
+              "permalink": "/wiki/backend/api-docs",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/appitect-dev/wiki/tree/main/docs/backend/api-docs.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 7,
+              "frontMatter": {
+                "sidebar_position": 7
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Security Implementation",
+                "permalink": "/wiki/backend/security"
+              },
+              "next": {
+                "title": "Frontend Development Overview",
+                "permalink": "/wiki/frontend/overview"
+              }
+            },
+            {
+              "id": "backend/database",
+              "title": "Database Integration",
+              "description": "This guide covers database integration with PostgreSQL, including database design, JPA/Hibernate configuration, and best practices for data modeling.",
+              "source": "@site/docs/backend/database.md",
+              "sourceDirName": "backend",
+              "slug": "/backend/database",
+              "permalink": "/wiki/backend/database",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/appitect-dev/wiki/tree/main/docs/backend/database.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "REST API Basics",
+                "permalink": "/wiki/backend/rest-api"
+              },
+              "next": {
+                "title": "Data Access with JPA and Hibernate",
+                "permalink": "/wiki/backend/jpa-hibernate"
+              }
+            },
+            {
+              "id": "backend/jpa-hibernate",
+              "title": "Data Access with JPA and Hibernate",
+              "description": "This guide provides a deep dive into using JPA (Java Persistence API) and Hibernate with Spring Boot, covering advanced concepts and best practices.",
+              "source": "@site/docs/backend/jpa-hibernate.md",
+              "sourceDirName": "backend",
+              "slug": "/backend/jpa-hibernate",
+              "permalink": "/wiki/backend/jpa-hibernate",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/appitect-dev/wiki/tree/main/docs/backend/jpa-hibernate.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Database Integration",
+                "permalink": "/wiki/backend/database"
+              },
+              "next": {
+                "title": "Security Implementation",
+                "permalink": "/wiki/backend/security"
+              }
+            },
+            {
               "id": "backend/overview",
               "title": "Backend Development with Spring Boot",
-              "description": "This guide covers backend development using Spring Boot, Java, Maven, and API documentation with Swagger/OpenAPI.",
+              "description": "This guide provides a comprehensive introduction to backend development using Spring Boot, Maven, and PostgreSQL. Whether you're new to backend development or looking to expand your knowledge, this guide will help you understand the fundamentals and best practices.",
               "source": "@site/docs/backend/overview.md",
               "sourceDirName": "backend",
               "slug": "/backend/overview",
@@ -38,18 +119,153 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Frontend Development",
-                "permalink": "/wiki/frontend/overview"
+                "title": "Introduction to Web Development",
+                "permalink": "/wiki/"
               },
               "next": {
-                "title": "git-guide",
-                "permalink": "/wiki/tools/git-guide"
+                "title": "Project Setup and Structure",
+                "permalink": "/wiki/backend/project-setup"
+              }
+            },
+            {
+              "id": "backend/project-setup",
+              "title": "Project Setup and Structure",
+              "description": "This guide will walk you through setting up a Spring Boot project with all necessary dependencies and configurations.",
+              "source": "@site/docs/backend/project-setup.md",
+              "sourceDirName": "backend",
+              "slug": "/backend/project-setup",
+              "permalink": "/wiki/backend/project-setup",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/appitect-dev/wiki/tree/main/docs/backend/project-setup.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Backend Development with Spring Boot",
+                "permalink": "/wiki/backend/overview"
+              },
+              "next": {
+                "title": "REST API Basics",
+                "permalink": "/wiki/backend/rest-api"
+              }
+            },
+            {
+              "id": "backend/rest-api",
+              "title": "REST API Basics",
+              "description": "This guide covers the fundamentals of building RESTful APIs with Spring Boot, including best practices, request/response handling, and common patterns.",
+              "source": "@site/docs/backend/rest-api.md",
+              "sourceDirName": "backend",
+              "slug": "/backend/rest-api",
+              "permalink": "/wiki/backend/rest-api",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/appitect-dev/wiki/tree/main/docs/backend/rest-api.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Project Setup and Structure",
+                "permalink": "/wiki/backend/project-setup"
+              },
+              "next": {
+                "title": "Database Integration",
+                "permalink": "/wiki/backend/database"
+              }
+            },
+            {
+              "id": "backend/security",
+              "title": "Security Implementation",
+              "description": "This guide covers implementing security in Spring Boot applications, including authentication, authorization, and best practices for securing your API.",
+              "source": "@site/docs/backend/security.md",
+              "sourceDirName": "backend",
+              "slug": "/backend/security",
+              "permalink": "/wiki/backend/security",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/appitect-dev/wiki/tree/main/docs/backend/security.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_position": 6
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Data Access with JPA and Hibernate",
+                "permalink": "/wiki/backend/jpa-hibernate"
+              },
+              "next": {
+                "title": "API Documentation with Swagger/OpenAPI",
+                "permalink": "/wiki/backend/api-docs"
+              }
+            },
+            {
+              "id": "frontend/backend-integration",
+              "title": "Backend Integration",
+              "description": "This guide covers how to integrate your Next.js frontend with a backend API, including setting up API clients, handling authentication, and managing API calls.",
+              "source": "@site/docs/frontend/backend-integration.md",
+              "sourceDirName": "frontend",
+              "slug": "/frontend/backend-integration",
+              "permalink": "/wiki/frontend/backend-integration",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/appitect-dev/wiki/tree/main/docs/frontend/backend-integration.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Project Setup and Configuration",
+                "permalink": "/wiki/frontend/project-setup"
+              },
+              "next": {
+                "title": "Component Development",
+                "permalink": "/wiki/frontend/components"
+              }
+            },
+            {
+              "id": "frontend/components",
+              "title": "Component Development",
+              "description": "This guide covers how to create and structure components in Next.js using TypeScript and TailwindCSS, including best practices and common patterns.",
+              "source": "@site/docs/frontend/components.md",
+              "sourceDirName": "frontend",
+              "slug": "/frontend/components",
+              "permalink": "/wiki/frontend/components",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/appitect-dev/wiki/tree/main/docs/frontend/components.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Backend Integration",
+                "permalink": "/wiki/frontend/backend-integration"
+              },
+              "next": {
+                "title": "State Management",
+                "permalink": "/wiki/frontend/state-management"
               }
             },
             {
               "id": "frontend/overview",
-              "title": "Frontend Development",
-              "description": "This guide covers modern frontend development using React, Next.js, TypeScript, and TailwindCSS.",
+              "title": "Frontend Development Overview",
+              "description": "This guide provides an overview of modern frontend development using Next.js, TypeScript, React, and TailwindCSS. Each section links to detailed documentation for in-depth learning.",
               "source": "@site/docs/frontend/overview.md",
               "sourceDirName": "frontend",
               "slug": "/frontend/overview",
@@ -59,39 +275,95 @@
               "editUrl": "https://github.com/appitect-dev/wiki/tree/main/docs/frontend/overview.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Basic Web Development Concepts",
-                "permalink": "/wiki/fundamentals/basic-concepts"
+                "title": "API Documentation with Swagger/OpenAPI",
+                "permalink": "/wiki/backend/api-docs"
               },
               "next": {
-                "title": "Backend Development with Spring Boot",
-                "permalink": "/wiki/backend/overview"
+                "title": "Project Setup and Configuration",
+                "permalink": "/wiki/frontend/project-setup"
               }
             },
             {
-              "id": "fundamentals/basic-concepts",
-              "title": "Basic Web Development Concepts",
-              "description": "This guide explains fundamental concepts in web development that every developer should understand.",
-              "source": "@site/docs/fundamentals/basic-concepts.md",
-              "sourceDirName": "fundamentals",
-              "slug": "/fundamentals/basic-concepts",
-              "permalink": "/wiki/fundamentals/basic-concepts",
+              "id": "frontend/project-setup",
+              "title": "Project Setup and Configuration",
+              "description": "This guide covers how to set up a new Next.js project and understand its basic configuration.",
+              "source": "@site/docs/frontend/project-setup.md",
+              "sourceDirName": "frontend",
+              "slug": "/frontend/project-setup",
+              "permalink": "/wiki/frontend/project-setup",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/appitect-dev/wiki/tree/main/docs/fundamentals/basic-concepts.md",
+              "editUrl": "https://github.com/appitect-dev/wiki/tree/main/docs/frontend/project-setup.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Introduction to Web Development",
-                "permalink": "/wiki/"
+                "title": "Frontend Development Overview",
+                "permalink": "/wiki/frontend/overview"
               },
               "next": {
-                "title": "Frontend Development",
-                "permalink": "/wiki/frontend/overview"
+                "title": "Backend Integration",
+                "permalink": "/wiki/frontend/backend-integration"
+              }
+            },
+            {
+              "id": "frontend/state-management",
+              "title": "State Management",
+              "description": "This guide covers different approaches to managing state in Next.js applications, from local component state to global state management solutions.",
+              "source": "@site/docs/frontend/state-management.md",
+              "sourceDirName": "frontend",
+              "slug": "/frontend/state-management",
+              "permalink": "/wiki/frontend/state-management",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/appitect-dev/wiki/tree/main/docs/frontend/state-management.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Component Development",
+                "permalink": "/wiki/frontend/components"
+              },
+              "next": {
+                "title": "Fullstack Development Fundamentals",
+                "permalink": "/wiki/fundamentals/overview"
+              }
+            },
+            {
+              "id": "fundamentals/overview",
+              "title": "Fullstack Development Fundamentals",
+              "description": "This guide provides a comprehensive overview of the fundamental concepts and technologies needed to build a fullstack web application. It covers both frontend and backend development basics, along with essential tools and practices.",
+              "source": "@site/docs/fundamentals/overview.md",
+              "sourceDirName": "fundamentals",
+              "slug": "/fundamentals/overview",
+              "permalink": "/wiki/fundamentals/overview",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/appitect-dev/wiki/tree/main/docs/fundamentals/overview.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "State Management",
+                "permalink": "/wiki/frontend/state-management"
               }
             },
             {
@@ -114,29 +386,6 @@
               },
               "sidebar": "tutorialSidebar",
               "next": {
-                "title": "Basic Web Development Concepts",
-                "permalink": "/wiki/fundamentals/basic-concepts"
-              }
-            },
-            {
-              "id": "tools/git-guide",
-              "title": "git-guide",
-              "description": "[Previous content of git-guide.md]",
-              "source": "@site/docs/tools/git-guide.md",
-              "sourceDirName": "tools",
-              "slug": "/tools/git-guide",
-              "permalink": "/wiki/tools/git-guide",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://github.com/appitect-dev/wiki/tree/main/docs/tools/git-guide.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
                 "title": "Backend Development with Spring Boot",
                 "permalink": "/wiki/backend/overview"
               }
@@ -153,11 +402,35 @@
               },
               {
                 "type": "category",
-                "label": "Fundamentals",
+                "label": "Backend Development",
                 "items": [
                   {
                     "type": "doc",
-                    "id": "fundamentals/basic-concepts"
+                    "id": "backend/overview"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "backend/project-setup"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "backend/rest-api"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "backend/database"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "backend/jpa-hibernate"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "backend/security"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "backend/api-docs"
                   }
                 ],
                 "collapsed": true,
@@ -170,6 +443,22 @@
                   {
                     "type": "doc",
                     "id": "frontend/overview"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "frontend/project-setup"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "frontend/backend-integration"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "frontend/components"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "frontend/state-management"
                   }
                 ],
                 "collapsed": true,
@@ -177,23 +466,11 @@
               },
               {
                 "type": "category",
-                "label": "Backend Development",
+                "label": "Fundamentals",
                 "items": [
                   {
                     "type": "doc",
-                    "id": "backend/overview"
-                  }
-                ],
-                "collapsed": true,
-                "collapsible": true
-              },
-              {
-                "type": "category",
-                "label": "Development Tools",
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "tools/git-guide"
+                    "id": "fundamentals/overview"
                   }
                 ],
                 "collapsed": true,

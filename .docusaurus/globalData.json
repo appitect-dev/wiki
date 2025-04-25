@@ -11,8 +11,48 @@
           "mainDocId": "index",
           "docs": [
             {
+              "id": "backend/api-docs",
+              "path": "/wiki/backend/api-docs",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "backend/database",
+              "path": "/wiki/backend/database",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "backend/jpa-hibernate",
+              "path": "/wiki/backend/jpa-hibernate",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "backend/overview",
               "path": "/wiki/backend/overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "backend/project-setup",
+              "path": "/wiki/backend/project-setup",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "backend/rest-api",
+              "path": "/wiki/backend/rest-api",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "backend/security",
+              "path": "/wiki/backend/security",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "frontend/backend-integration",
+              "path": "/wiki/frontend/backend-integration",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "frontend/components",
+              "path": "/wiki/frontend/components",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -21,18 +61,23 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "fundamentals/basic-concepts",
-              "path": "/wiki/fundamentals/basic-concepts",
+              "id": "frontend/project-setup",
+              "path": "/wiki/frontend/project-setup",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "frontend/state-management",
+              "path": "/wiki/frontend/state-management",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "fundamentals/overview",
+              "path": "/wiki/fundamentals/overview",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "index",
               "path": "/wiki/",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tools/git-guide",
-              "path": "/wiki/tools/git-guide",
               "sidebar": "tutorialSidebar"
             }
           ],

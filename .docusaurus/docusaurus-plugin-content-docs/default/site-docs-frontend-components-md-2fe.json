@@ -1,0 +1,27 @@
+{
+  "id": "frontend/components",
+  "title": "Component Development",
+  "description": "This guide covers how to create and structure components in Next.js using TypeScript and TailwindCSS, including best practices and common patterns.",
+  "source": "@site/docs/frontend/components.md",
+  "sourceDirName": "frontend",
+  "slug": "/frontend/components",
+  "permalink": "/wiki/frontend/components",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/appitect-dev/wiki/tree/main/docs/frontend/components.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Backend Integration",
+    "permalink": "/wiki/frontend/backend-integration"
+  },
+  "next": {
+    "title": "State Management",
+    "permalink": "/wiki/frontend/state-management"
+  }
+}

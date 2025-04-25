@@ -1,7 +1,7 @@
 {
   "id": "backend/overview",
   "title": "Backend Development with Spring Boot",
-  "description": "This guide covers backend development using Spring Boot, Java, Maven, and API documentation with Swagger/OpenAPI.",
+  "description": "This guide provides a comprehensive introduction to backend development using Spring Boot, Maven, and PostgreSQL. Whether you're new to backend development or looking to expand your knowledge, this guide will help you understand the fundamentals and best practices.",
   "source": "@site/docs/backend/overview.md",
   "sourceDirName": "backend",
   "slug": "/backend/overview",
@@ -17,11 +17,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Frontend Development",
-    "permalink": "/wiki/frontend/overview"
+    "title": "Introduction to Web Development",
+    "permalink": "/wiki/"
   },
   "next": {
-    "title": "git-guide",
-    "permalink": "/wiki/tools/git-guide"
+    "title": "Project Setup and Structure",
+    "permalink": "/wiki/backend/project-setup"
   }
 }

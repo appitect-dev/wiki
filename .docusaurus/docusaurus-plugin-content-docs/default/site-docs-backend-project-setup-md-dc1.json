@@ -1,0 +1,27 @@
+{
+  "id": "backend/project-setup",
+  "title": "Project Setup and Structure",
+  "description": "This guide will walk you through setting up a Spring Boot project with all necessary dependencies and configurations.",
+  "source": "@site/docs/backend/project-setup.md",
+  "sourceDirName": "backend",
+  "slug": "/backend/project-setup",
+  "permalink": "/wiki/backend/project-setup",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/appitect-dev/wiki/tree/main/docs/backend/project-setup.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Backend Development with Spring Boot",
+    "permalink": "/wiki/backend/overview"
+  },
+  "next": {
+    "title": "REST API Basics",
+    "permalink": "/wiki/backend/rest-api"
+  }
+}

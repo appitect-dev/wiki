@@ -18,13 +18,55 @@
       },
       {
         "type": "category",
-        "label": "Fundamentals",
+        "label": "Backend Development",
         "items": [
           {
             "type": "link",
-            "label": "Basic Web Development Concepts",
-            "href": "/wiki/fundamentals/basic-concepts",
-            "docId": "fundamentals/basic-concepts",
+            "label": "Backend Development with Spring Boot",
+            "href": "/wiki/backend/overview",
+            "docId": "backend/overview",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Project Setup and Structure",
+            "href": "/wiki/backend/project-setup",
+            "docId": "backend/project-setup",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "REST API Basics",
+            "href": "/wiki/backend/rest-api",
+            "docId": "backend/rest-api",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Database Integration",
+            "href": "/wiki/backend/database",
+            "docId": "backend/database",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Data Access with JPA and Hibernate",
+            "href": "/wiki/backend/jpa-hibernate",
+            "docId": "backend/jpa-hibernate",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Security Implementation",
+            "href": "/wiki/backend/security",
+            "docId": "backend/security",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "API Documentation with Swagger/OpenAPI",
+            "href": "/wiki/backend/api-docs",
+            "docId": "backend/api-docs",
             "unlisted": false
           }
         ],
@@ -37,24 +79,37 @@
         "items": [
           {
             "type": "link",
-            "label": "Frontend Development",
+            "label": "Frontend Development Overview",
             "href": "/wiki/frontend/overview",
             "docId": "frontend/overview",
             "unlisted": false
-          }
-        ],
-        "collapsed": true,
-        "collapsible": true
-      },
-      {
-        "type": "category",
-        "label": "Backend Development",
-        "items": [
+          },
           {
             "type": "link",
-            "label": "Backend Development with Spring Boot",
-            "href": "/wiki/backend/overview",
-            "docId": "backend/overview",
+            "label": "Project Setup and Configuration",
+            "href": "/wiki/frontend/project-setup",
+            "docId": "frontend/project-setup",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Backend Integration",
+            "href": "/wiki/frontend/backend-integration",
+            "docId": "frontend/backend-integration",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Component Development",
+            "href": "/wiki/frontend/components",
+            "docId": "frontend/components",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "State Management",
+            "href": "/wiki/frontend/state-management",
+            "docId": "frontend/state-management",
             "unlisted": false
           }
         ],
@@ -63,13 +118,13 @@
       },
       {
         "type": "category",
-        "label": "Development Tools",
+        "label": "Fundamentals",
         "items": [
           {
             "type": "link",
-            "label": "git-guide",
-            "href": "/wiki/tools/git-guide",
-            "docId": "tools/git-guide",
+            "label": "Fullstack Development Fundamentals",
+            "href": "/wiki/fundamentals/overview",
+            "docId": "fundamentals/overview",
             "unlisted": false
           }
         ],
@@ -79,34 +134,88 @@
     ]
   },
   "docs": {
+    "backend/api-docs": {
+      "id": "backend/api-docs",
+      "title": "API Documentation with Swagger/OpenAPI",
+      "description": "This guide covers how to document your Spring Boot REST APIs using Swagger/OpenAPI 3.0, making them more accessible and easier to understand for other developers.",
+      "sidebar": "tutorialSidebar"
+    },
+    "backend/database": {
+      "id": "backend/database",
+      "title": "Database Integration",
+      "description": "This guide covers database integration with PostgreSQL, including database design, JPA/Hibernate configuration, and best practices for data modeling.",
+      "sidebar": "tutorialSidebar"
+    },
+    "backend/jpa-hibernate": {
+      "id": "backend/jpa-hibernate",
+      "title": "Data Access with JPA and Hibernate",
+      "description": "This guide provides a deep dive into using JPA (Java Persistence API) and Hibernate with Spring Boot, covering advanced concepts and best practices.",
+      "sidebar": "tutorialSidebar"
+    },
     "backend/overview": {
       "id": "backend/overview",
       "title": "Backend Development with Spring Boot",
-      "description": "This guide covers backend development using Spring Boot, Java, Maven, and API documentation with Swagger/OpenAPI.",
+      "description": "This guide provides a comprehensive introduction to backend development using Spring Boot, Maven, and PostgreSQL. Whether you're new to backend development or looking to expand your knowledge, this guide will help you understand the fundamentals and best practices.",
+      "sidebar": "tutorialSidebar"
+    },
+    "backend/project-setup": {
+      "id": "backend/project-setup",
+      "title": "Project Setup and Structure",
+      "description": "This guide will walk you through setting up a Spring Boot project with all necessary dependencies and configurations.",
+      "sidebar": "tutorialSidebar"
+    },
+    "backend/rest-api": {
+      "id": "backend/rest-api",
+      "title": "REST API Basics",
+      "description": "This guide covers the fundamentals of building RESTful APIs with Spring Boot, including best practices, request/response handling, and common patterns.",
+      "sidebar": "tutorialSidebar"
+    },
+    "backend/security": {
+      "id": "backend/security",
+      "title": "Security Implementation",
+      "description": "This guide covers implementing security in Spring Boot applications, including authentication, authorization, and best practices for securing your API.",
+      "sidebar": "tutorialSidebar"
+    },
+    "frontend/backend-integration": {
+      "id": "frontend/backend-integration",
+      "title": "Backend Integration",
+      "description": "This guide covers how to integrate your Next.js frontend with a backend API, including setting up API clients, handling authentication, and managing API calls.",
+      "sidebar": "tutorialSidebar"
+    },
+    "frontend/components": {
+      "id": "frontend/components",
+      "title": "Component Development",
+      "description": "This guide covers how to create and structure components in Next.js using TypeScript and TailwindCSS, including best practices and common patterns.",
       "sidebar": "tutorialSidebar"
     },
     "frontend/overview": {
       "id": "frontend/overview",
-      "title": "Frontend Development",
-      "description": "This guide covers modern frontend development using React, Next.js, TypeScript, and TailwindCSS.",
+      "title": "Frontend Development Overview",
+      "description": "This guide provides an overview of modern frontend development using Next.js, TypeScript, React, and TailwindCSS. Each section links to detailed documentation for in-depth learning.",
       "sidebar": "tutorialSidebar"
     },
-    "fundamentals/basic-concepts": {
-      "id": "fundamentals/basic-concepts",
-      "title": "Basic Web Development Concepts",
-      "description": "This guide explains fundamental concepts in web development that every developer should understand.",
+    "frontend/project-setup": {
+      "id": "frontend/project-setup",
+      "title": "Project Setup and Configuration",
+      "description": "This guide covers how to set up a new Next.js project and understand its basic configuration.",
+      "sidebar": "tutorialSidebar"
+    },
+    "frontend/state-management": {
+      "id": "frontend/state-management",
+      "title": "State Management",
+      "description": "This guide covers different approaches to managing state in Next.js applications, from local component state to global state management solutions.",
+      "sidebar": "tutorialSidebar"
+    },
+    "fundamentals/overview": {
+      "id": "fundamentals/overview",
+      "title": "Fullstack Development Fundamentals",
+      "description": "This guide provides a comprehensive overview of the fundamental concepts and technologies needed to build a fullstack web application. It covers both frontend and backend development basics, along with essential tools and practices.",
       "sidebar": "tutorialSidebar"
     },
     "index": {
       "id": "index",
       "title": "Introduction to Web Development",
       "description": "Welcome to our comprehensive web development guide! This wiki serves as a learning resource and reference for modern web application development. Whether you're just starting or looking to expand your knowledge, you'll find detailed information about various aspects of web development.",
-      "sidebar": "tutorialSidebar"
-    },
-    "tools/git-guide": {
-      "id": "tools/git-guide",
-      "title": "git-guide",
-      "description": "[Previous content of git-guide.md]",
       "sidebar": "tutorialSidebar"
     }
   }

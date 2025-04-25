@@ -1,0 +1,27 @@
+{
+  "id": "frontend/state-management",
+  "title": "State Management",
+  "description": "This guide covers different approaches to managing state in Next.js applications, from local component state to global state management solutions.",
+  "source": "@site/docs/frontend/state-management.md",
+  "sourceDirName": "frontend",
+  "slug": "/frontend/state-management",
+  "permalink": "/wiki/frontend/state-management",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/appitect-dev/wiki/tree/main/docs/frontend/state-management.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Component Development",
+    "permalink": "/wiki/frontend/components"
+  },
+  "next": {
+    "title": "Fullstack Development Fundamentals",
+    "permalink": "/wiki/fundamentals/overview"
+  }
+}

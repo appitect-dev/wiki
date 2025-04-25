@@ -1,0 +1,27 @@
+{
+  "id": "backend/api-docs",
+  "title": "API Documentation with Swagger/OpenAPI",
+  "description": "This guide covers how to document your Spring Boot REST APIs using Swagger/OpenAPI 3.0, making them more accessible and easier to understand for other developers.",
+  "source": "@site/docs/backend/api-docs.md",
+  "sourceDirName": "backend",
+  "slug": "/backend/api-docs",
+  "permalink": "/wiki/backend/api-docs",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/appitect-dev/wiki/tree/main/docs/backend/api-docs.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Security Implementation",
+    "permalink": "/wiki/backend/security"
+  },
+  "next": {
+    "title": "Frontend Development Overview",
+    "permalink": "/wiki/frontend/overview"
+  }
+}
