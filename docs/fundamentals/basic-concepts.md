@@ -98,16 +98,17 @@ git checkout -b     # Create and switch to new branch
 
 #### IDE (Integrated Development Environment)
 An IDE is a software application that provides:
-- Code editing
+- Code editing and syntax highlighting
 - Debugging tools
-- Syntax highlighting
-- Code completion
-- Integration with other tools
+- Version control integration
+- Build automation
+- Code completion and suggestions
 
-Popular IDEs:
+Popular IDEs include:
 - Visual Studio Code
+- IntelliJ IDEA
 - WebStorm
-- Sublime Text
+- Eclipse
 
 ## Web Technologies
 
