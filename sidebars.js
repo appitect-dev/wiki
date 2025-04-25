@@ -14,43 +14,17 @@ const sidebars = {
     {
       type: 'category',
       label: 'Frontend Development',
-      items: [
-        'frontend/overview',
-        'frontend/react',
-        'frontend/nextjs',
-        'frontend/typescript',
-        'frontend/tailwind',
-      ],
+      items: ['frontend/overview'],
     },
     {
       type: 'category',
       label: 'Backend Development',
-      items: [
-        'backend/overview',
-        'backend/spring-boot',
-        'backend/java',
-        'backend/maven',
-        'backend/api-docs',
-      ],
+      items: ['backend/overview'],
     },
     {
       type: 'category',
       label: 'Development Tools',
-      items: [
-        'tools/git-guide',
-        'tools/ide-setup',
-        'tools/deployment',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Best Practices',
-      items: [
-        'best-practices/code-style',
-        'best-practices/testing',
-        'best-practices/security',
-        'best-practices/performance',
-      ],
+      items: ['tools/git-guide'],
     },
   ],
 };
