@@ -12,12 +12,13 @@ const config = {
   // Set the production url of your site here
   url: 'https://appitect-dev.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
-  baseUrl: '/wiki/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   organizationName: 'appitect-dev',
-  projectName: 'wiki',
+  projectName: 'appitect-dev.github.io',
   trailingSlash: false,
+  deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
@@ -37,7 +38,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/appitect-dev/wiki/tree/main/',
+          editUrl: 'https://github.com/appitect-dev/appitect-dev.github.io/tree/main/',
           routeBasePath: '/', // Serve the docs at the site's root
         },
         blog: false, // Optional: disable blog plugin
@@ -67,7 +68,7 @@ const config = {
             label: 'Tutorial',
           },
           {
-            href: 'https://github.com/appitect-dev/wiki',
+            href: 'https://github.com/appitect-dev/appitect-dev.github.io',
             label: 'GitHub',
             position: 'right',
           },
