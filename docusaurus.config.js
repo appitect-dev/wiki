@@ -19,7 +19,7 @@ const config = {
   organizationName: 'your-org',
   projectName: 'development-wiki',
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -106,7 +106,7 @@ const config = {
       prism: {
         theme: themes.github,
         darkTheme: themes.dracula,
-        additionalLanguages: ['java', 'xml', 'properties'],
+        additionalLanguages: ['java', 'xml', 'properties', 'bash', 'tsx', 'typescript'],
       },
     }),
 };
