@@ -1,0 +1,215 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/wiki/",
+          "tagsPath": "/wiki/tags",
+          "editUrl": "https://github.com/appitect-dev/wiki/tree/main/docs",
+          "editUrlLocalized": "https://github.com/appitect-dev/wiki/tree/main/i18n/en/docusaurus-plugin-content-docs/current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/Users/adambardzak/Desktop/business/wiki/sidebars.js",
+          "contentPath": "/Users/adambardzak/Desktop/business/wiki/docs",
+          "contentPathLocalized": "/Users/adambardzak/Desktop/business/wiki/i18n/en/docusaurus-plugin-content-docs/current",
+          "docs": [
+            {
+              "id": "backend/overview",
+              "title": "Backend Development with Spring Boot",
+              "description": "This guide covers backend development using Spring Boot, Java, Maven, and API documentation with Swagger/OpenAPI.",
+              "source": "@site/docs/backend/overview.md",
+              "sourceDirName": "backend",
+              "slug": "/backend/overview",
+              "permalink": "/wiki/backend/overview",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/appitect-dev/wiki/tree/main/docs/backend/overview.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Frontend Development",
+                "permalink": "/wiki/frontend/overview"
+              },
+              "next": {
+                "title": "git-guide",
+                "permalink": "/wiki/tools/git-guide"
+              }
+            },
+            {
+              "id": "frontend/overview",
+              "title": "Frontend Development",
+              "description": "This guide covers modern frontend development using React, Next.js, TypeScript, and TailwindCSS.",
+              "source": "@site/docs/frontend/overview.md",
+              "sourceDirName": "frontend",
+              "slug": "/frontend/overview",
+              "permalink": "/wiki/frontend/overview",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/appitect-dev/wiki/tree/main/docs/frontend/overview.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Basic Web Development Concepts",
+                "permalink": "/wiki/fundamentals/basic-concepts"
+              },
+              "next": {
+                "title": "Backend Development with Spring Boot",
+                "permalink": "/wiki/backend/overview"
+              }
+            },
+            {
+              "id": "fundamentals/basic-concepts",
+              "title": "Basic Web Development Concepts",
+              "description": "This guide explains fundamental concepts in web development that every developer should understand.",
+              "source": "@site/docs/fundamentals/basic-concepts.md",
+              "sourceDirName": "fundamentals",
+              "slug": "/fundamentals/basic-concepts",
+              "permalink": "/wiki/fundamentals/basic-concepts",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/appitect-dev/wiki/tree/main/docs/fundamentals/basic-concepts.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Introduction to Web Development",
+                "permalink": "/wiki/"
+              },
+              "next": {
+                "title": "Frontend Development",
+                "permalink": "/wiki/frontend/overview"
+              }
+            },
+            {
+              "id": "index",
+              "title": "Introduction to Web Development",
+              "description": "Welcome to our comprehensive web development guide! This wiki serves as a learning resource and reference for modern web application development. Whether you're just starting or looking to expand your knowledge, you'll find detailed information about various aspects of web development.",
+              "source": "@site/docs/index.md",
+              "sourceDirName": ".",
+              "slug": "/",
+              "permalink": "/wiki/",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/appitect-dev/wiki/tree/main/docs/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "slug": "/",
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "Basic Web Development Concepts",
+                "permalink": "/wiki/fundamentals/basic-concepts"
+              }
+            },
+            {
+              "id": "tools/git-guide",
+              "title": "git-guide",
+              "description": "[Previous content of git-guide.md]",
+              "source": "@site/docs/tools/git-guide.md",
+              "sourceDirName": "tools",
+              "slug": "/tools/git-guide",
+              "permalink": "/wiki/tools/git-guide",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/appitect-dev/wiki/tree/main/docs/tools/git-guide.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Backend Development with Spring Boot",
+                "permalink": "/wiki/backend/overview"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "doc",
+                "id": "index",
+                "label": "Introduction",
+                "translatable": true
+              },
+              {
+                "type": "category",
+                "label": "Fundamentals",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "fundamentals/basic-concepts"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Frontend Development",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "frontend/overview"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Backend Development",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "backend/overview"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Development Tools",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "tools/git-guide"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": null
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}

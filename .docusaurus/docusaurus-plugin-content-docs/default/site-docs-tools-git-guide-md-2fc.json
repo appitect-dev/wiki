@@ -1,0 +1,23 @@
+{
+  "id": "tools/git-guide",
+  "title": "git-guide",
+  "description": "[Previous content of git-guide.md]",
+  "source": "@site/docs/tools/git-guide.md",
+  "sourceDirName": "tools",
+  "slug": "/tools/git-guide",
+  "permalink": "/wiki/tools/git-guide",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/appitect-dev/wiki/tree/main/docs/tools/git-guide.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Backend Development with Spring Boot",
+    "permalink": "/wiki/backend/overview"
+  }
+}

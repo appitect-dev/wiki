@@ -1,0 +1,23 @@
+{
+  "id": "intro",
+  "title": "Introduction to Web Development",
+  "description": "Welcome to our comprehensive web development guide! This wiki serves as a learning resource and reference for modern web application development. Whether you're just starting or looking to expand your knowledge, you'll find detailed information about various aspects of web development.",
+  "source": "@site/docs/intro.md",
+  "sourceDirName": ".",
+  "slug": "/intro",
+  "permalink": "/wiki/intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/appitect-dev/wiki/tree/main/docs/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Basic Web Development Concepts",
+    "permalink": "/wiki/fundamentals/basic-concepts"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "frontend/overview",
+  "title": "Frontend Development",
+  "description": "This guide covers modern frontend development using React, Next.js, TypeScript, and TailwindCSS.",
+  "source": "@site/docs/frontend/overview.md",
+  "sourceDirName": "frontend",
+  "slug": "/frontend/overview",
+  "permalink": "/wiki/frontend/overview",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/appitect-dev/wiki/tree/main/docs/frontend/overview.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Basic Web Development Concepts",
+    "permalink": "/wiki/fundamentals/basic-concepts"
+  },
+  "next": {
+    "title": "Backend Development with Spring Boot",
+    "permalink": "/wiki/backend/overview"
+  }
+}

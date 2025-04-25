@@ -1,0 +1,24 @@
+{
+  "id": "fundamentals/basic-concepts",
+  "title": "Basic Web Development Concepts",
+  "description": "This guide explains fundamental concepts in web development that every developer should understand.",
+  "source": "@site/docs/fundamentals/basic-concepts.md",
+  "sourceDirName": "fundamentals",
+  "slug": "/fundamentals/basic-concepts",
+  "permalink": "/wiki/fundamentals/basic-concepts",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/appitect-dev/wiki/tree/main/docs/fundamentals/basic-concepts.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction to Web Development",
+    "permalink": "/wiki/"
+  },
+  "next": {
+    "title": "Frontend Development",
+    "permalink": "/wiki/frontend/overview"
+  }
+}

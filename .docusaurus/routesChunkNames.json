@@ -1,0 +1,78 @@
+{
+  "/wiki/__docusaurus/debug-81f": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---wiki-docusaurus-debugbdd-e86"
+    }
+  },
+  "/wiki/__docusaurus/debug/config-3ed": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---wiki-docusaurus-debugbdd-e86"
+    }
+  },
+  "/wiki/__docusaurus/debug/content-57c": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---wiki-docusaurus-debugbdd-e86"
+    },
+    "allContent": "allContent---wiki-docusaurus-debug-content-246-659"
+  },
+  "/wiki/__docusaurus/debug/globalData-7f8": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---wiki-docusaurus-debugbdd-e86"
+    }
+  },
+  "/wiki/__docusaurus/debug/metadata-3ab": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---wiki-docusaurus-debugbdd-e86"
+    }
+  },
+  "/wiki/__docusaurus/debug/registry-ae5": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---wiki-docusaurus-debugbdd-e86"
+    }
+  },
+  "/wiki/__docusaurus/debug/routes-0dc": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---wiki-docusaurus-debugbdd-e86"
+    }
+  },
+  "/wiki/-bd7": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---wiki-fad-655"
+    }
+  },
+  "/wiki/-9ce": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "version": "version---wiki-935-e12"
+  },
+  "/wiki/-8cb": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/wiki/backend/overview-c4b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---wiki-backend-overview-629-45e"
+  },
+  "/wiki/frontend/overview-fa3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---wiki-frontend-overviewde-8-e54"
+  },
+  "/wiki/fundamentals/basic-concepts-9c8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---wiki-fundamentals-basic-concepts-366-297"
+  },
+  "/wiki/tools/git-guide-bce": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---wiki-tools-git-guide-2-fc-dc7"
+  },
+  "/wiki/-71d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---wiki-c-37-d90"
+  }
+}

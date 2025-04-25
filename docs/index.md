@@ -1,4 +1,5 @@
 ---
+slug: /
 sidebar_position: 1
 ---
 
@@ -48,7 +49,7 @@ This wiki covers:
 ## How to Use This Wiki
 
 1. **If you're new to web development:**
-   - Start with the [Basic Concepts](./fundamentals/basic-concepts.md) section
+   - Start with the Basic Concepts section
    - Follow the tutorials in order
    - Practice with the provided examples
 
@@ -75,7 +76,7 @@ To make the most of this wiki, you should have:
 
 This wiki is a living document, and we welcome contributions! If you'd like to contribute:
 
-1. Check the [GitHub repository](https://github.com/your-org/development-wiki)
+1. Check the [GitHub repository](https://github.com/appitect-dev/wiki)
 2. Read our contribution guidelines
 3. Submit pull requests for improvements
 4. Report issues or suggest new topics
@@ -87,13 +88,4 @@ If you need help:
 - Check the FAQ section
 - Search the documentation
 - Create an issue on GitHub
-- Ask in the community forums
-
-## Next Steps
-
-Ready to start? Choose your path:
-
-- [Basic Web Development Concepts](./fundamentals/basic-concepts.md)
-- [Frontend Development with React](./frontend/overview.md)
-- [Backend Development with Spring Boot](./backend/overview.md)
-- [Development Tools and Git](./tools/git-guide.md) 
+- Ask in the community forums 

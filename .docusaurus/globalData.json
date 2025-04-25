@@ -1,0 +1,53 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/wiki/",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/wiki/",
+          "mainDocId": "index",
+          "docs": [
+            {
+              "id": "backend/overview",
+              "path": "/wiki/backend/overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "frontend/overview",
+              "path": "/wiki/frontend/overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "fundamentals/basic-concepts",
+              "path": "/wiki/fundamentals/basic-concepts",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "index",
+              "path": "/wiki/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tools/git-guide",
+              "path": "/wiki/tools/git-guide",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/wiki/",
+                "label": "Introduction"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

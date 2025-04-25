@@ -1,0 +1,113 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "link",
+        "label": "Introduction",
+        "href": "/wiki/",
+        "docId": "index",
+        "unlisted": false
+      },
+      {
+        "type": "category",
+        "label": "Fundamentals",
+        "items": [
+          {
+            "type": "link",
+            "label": "Basic Web Development Concepts",
+            "href": "/wiki/fundamentals/basic-concepts",
+            "docId": "fundamentals/basic-concepts",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Frontend Development",
+        "items": [
+          {
+            "type": "link",
+            "label": "Frontend Development",
+            "href": "/wiki/frontend/overview",
+            "docId": "frontend/overview",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Backend Development",
+        "items": [
+          {
+            "type": "link",
+            "label": "Backend Development with Spring Boot",
+            "href": "/wiki/backend/overview",
+            "docId": "backend/overview",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Development Tools",
+        "items": [
+          {
+            "type": "link",
+            "label": "git-guide",
+            "href": "/wiki/tools/git-guide",
+            "docId": "tools/git-guide",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      }
+    ]
+  },
+  "docs": {
+    "backend/overview": {
+      "id": "backend/overview",
+      "title": "Backend Development with Spring Boot",
+      "description": "This guide covers backend development using Spring Boot, Java, Maven, and API documentation with Swagger/OpenAPI.",
+      "sidebar": "tutorialSidebar"
+    },
+    "frontend/overview": {
+      "id": "frontend/overview",
+      "title": "Frontend Development",
+      "description": "This guide covers modern frontend development using React, Next.js, TypeScript, and TailwindCSS.",
+      "sidebar": "tutorialSidebar"
+    },
+    "fundamentals/basic-concepts": {
+      "id": "fundamentals/basic-concepts",
+      "title": "Basic Web Development Concepts",
+      "description": "This guide explains fundamental concepts in web development that every developer should understand.",
+      "sidebar": "tutorialSidebar"
+    },
+    "index": {
+      "id": "index",
+      "title": "Introduction to Web Development",
+      "description": "Welcome to our comprehensive web development guide! This wiki serves as a learning resource and reference for modern web application development. Whether you're just starting or looking to expand your knowledge, you'll find detailed information about various aspects of web development.",
+      "sidebar": "tutorialSidebar"
+    },
+    "tools/git-guide": {
+      "id": "tools/git-guide",
+      "title": "git-guide",
+      "description": "[Previous content of git-guide.md]",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}

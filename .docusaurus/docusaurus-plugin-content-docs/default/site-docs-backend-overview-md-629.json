@@ -1,0 +1,27 @@
+{
+  "id": "backend/overview",
+  "title": "Backend Development with Spring Boot",
+  "description": "This guide covers backend development using Spring Boot, Java, Maven, and API documentation with Swagger/OpenAPI.",
+  "source": "@site/docs/backend/overview.md",
+  "sourceDirName": "backend",
+  "slug": "/backend/overview",
+  "permalink": "/wiki/backend/overview",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/appitect-dev/wiki/tree/main/docs/backend/overview.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Frontend Development",
+    "permalink": "/wiki/frontend/overview"
+  },
+  "next": {
+    "title": "git-guide",
+    "permalink": "/wiki/tools/git-guide"
+  }
+}
