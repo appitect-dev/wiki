@@ -6,27 +6,111 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --background: #ffffff;
+  --foreground: #020F19;
+
+  /* Primary colors */
+  --primary-100: #E6EEF4;
+  --primary-200: #CCDDE9;
+  --primary-300: #86CCFF;
+  --primary-400: #669AC0;
+  --primary-500: #0A497B;
+  --primary-600: #083A62;
+  --primary-700: #062C4A;
+  --primary-800: #041D31;
+  --primary-900: #020F19;
+
+  /* Accent colors */
+  --accent-100: #FFF0EB;
+  --accent-200: #FFE1D6;
+  --accent-300: #FFC3AD;
+  --accent-400: #FFA584;
+  --accent-500: #FF7043;
+  --accent-600: #CC6640;
+  --accent-700: #994C30;
+  --accent-800: #663320;
+  --accent-900: #331A10;
+
+  /* Docusaurus defaults using our colors */
+  --ifm-color-primary: var(--primary-500);
+  --ifm-color-primary-dark: var(--primary-600);
+  --ifm-color-primary-darker: var(--primary-700);
+  --ifm-color-primary-darkest: var(--primary-800);
+  --ifm-color-primary-light: var(--primary-400);
+  --ifm-color-primary-lighter: var(--primary-300);
+  --ifm-color-primary-lightest: var(--primary-200);
+  
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  /* Custom component colors */
+  --ifm-navbar-background-color: var(--background);
+  --ifm-footer-background-color: var(--primary-800);
+  --ifm-link-color: var(--primary-500);
+  --ifm-menu-color-active: var(--primary-500);
+  --ifm-breadcrumb-color-active: var(--primary-500);
+  --ifm-button-background-color: var(--primary-500);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --background: var(--primary-800);
+  --foreground: var(--primary-100);
+
+  --ifm-color-primary: var(--primary-300);
+  --ifm-color-primary-dark: var(--primary-400);
+  --ifm-color-primary-darker: var(--primary-500);
+  --ifm-color-primary-darkest: var(--primary-600);
+  --ifm-color-primary-light: var(--primary-200);
+  --ifm-color-primary-lighter: var(--primary-100);
+  --ifm-color-primary-lightest: var(--primary-100);
+  
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+
+  /* Custom component colors for dark mode */
+  --ifm-navbar-background-color: var(--background);
+  --ifm-footer-background-color: var(--primary-900);
+  --ifm-link-color: var(--primary-300);
+  --ifm-menu-color-active: var(--primary-300);
+  --ifm-breadcrumb-color-active: var(--primary-300);
+  --ifm-button-background-color: var(--primary-300);
+}
+
+/* Additional custom styles */
+.navbar {
+  border-bottom: 1px solid var(--primary-200);
+}
+
+[data-theme='dark'] .navbar {
+  border-bottom: 1px solid var(--primary-700);
+}
+
+.footer {
+  --ifm-footer-color: var(--primary-100);
+  --ifm-footer-link-color: var(--primary-300);
+  --ifm-footer-title-color: var(--primary-100);
+}
+
+.button {
+  color: var(--background);
+}
+
+/* Accent color usage */
+.pagination-nav__link:hover {
+  border-color: var(--accent-500);
+}
+
+.pagination-nav__link--active {
+  background-color: var(--accent-500);
+  border-color: var(--accent-500);
+}
+
+.theme-edit-this-page {
+  color: var(--accent-500);
+}
+
+.theme-edit-this-page:hover {
+  color: var(--accent-600);
 }
 
 /* Custom styles */

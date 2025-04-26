@@ -41,18 +41,12 @@ export default {
   "themeConfig": {
     "image": "img/docusaurus-social-card.jpg",
     "navbar": {
-      "title": "Development Wiki",
+      "title": "Appitect development wiki & knowledge base",
       "logo": {
-        "alt": "Development Wiki Logo",
-        "src": "img/logo.svg"
+        "alt": "Appitect Logo",
+        "src": "/appitect-logo.svg"
       },
       "items": [
-        {
-          "type": "docSidebar",
-          "sidebarId": "tutorialSidebar",
-          "position": "left",
-          "label": "Tutorial"
-        },
         {
           "href": "https://github.com/appitect-dev/wiki",
           "label": "GitHub",
